@@ -103,33 +103,44 @@ class DiaryEntry:
 def test_init():
     #Tests if the init method initialises correctly ensuring the class works
     pass
-```
-```python
+
 def test_add():
     #Tests if entry is correctly added to the entry list
     pass
-```
-```python
+
 def test_all():
     #Tests if the method returns all the current instances of DiaryEntry
     pass
-```
-```python
+
 def test_count_words():
     #Tests to ensure the correct value is calculated
     pass
-```
-```python
+
 def test_reading_time():
+    #Tests if method returns correct value
+    pass
+
+def test_best_entry():
     #Tests if method returns correct value
     pass
 ```
 
 ```python
-def test_best_entry():
-    #Tests if
-    pass
-```
-## 4. Implement the Behaviour
+#EXAMPLE
 
-_After each test you write, follow the test-driving process of red, green, refactor to implement the behaviour._
+def test_init():
+    #Tests if the init method initialises correctly ensuring the class works
+    pass
+
+def test_count_words():
+    #Tests to ensure the correct value is calculated
+    pass
+
+def test_reading_time():
+    #Tests for correct return
+    pass
+
+def test_reading_chunk():
+    #Tests for correct return
+
+```
