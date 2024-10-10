@@ -1,12 +1,5 @@
+# File: lib/diary.py
 
-## 1. Describe the Problem
-Test-Driving a multi-class program to reinforce Testing skills.
-
-## 2. Design the Class Interface
-
-
-```python
-# EXAMPLE
 class Diary:
     def __init__(self):
         pass
@@ -52,10 +45,10 @@ class Diary:
         #   but not over, the length that the user could read in the minutes
         #   they have available given their reading speed.
         pass
-```
 
-```python
-#EXAMPLE
+
+# File: lib/diary_entry.py
+
 class DiaryEntry:
     # Public Properties:
     #   title: a string
@@ -93,43 +86,3 @@ class DiaryEntry:
         # skipping what has already been read, until the contents is fully read.
         # The next call after that it should restart from the beginning.
         pass
-```
-
-## 3. Create Examples as Tests
-
-
-``` python
-# EXAMPLE
-def test_init():
-    #Tests if the init method initialises correctly ensuring the class works
-    pass
-```
-```python
-def test_add():
-    #Tests if entry is correctly added to the entry list
-    pass
-```
-```python
-def test_all():
-    #Tests if the method returns all the current instances of DiaryEntry
-    pass
-```
-```python
-def test_count_words():
-    #Tests to ensure the correct value is calculated
-    pass
-```
-```python
-def test_reading_time():
-    #Tests if method returns correct value
-    pass
-```
-
-```python
-def test_best_entry():
-    #Tests if
-    pass
-```
-## 4. Implement the Behaviour
-
-_After each test you write, follow the test-driving process of red, green, refactor to implement the behaviour._
